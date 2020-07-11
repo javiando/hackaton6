@@ -1,0 +1,112 @@
+.footer {
+  letter-spacing: 0.05em;
+  .upperfooter {
+    max-width: 940px;
+    margin-left: 213px;
+    margin-right: 126px;
+    padding: 90px 0;
+
+    div {
+      width: 50%;
+    }
+    h6 {
+      font-size: 36px;
+      line-height: 46px;
+      font-weight: $fw-normal;
+    }
+    p {
+      margin-top: 32px;
+      font-size: 16px;
+      line-height: 26px;
+      opacity: 0.6;
+      font-weight: $fw-lighter;
+    }
+    .buttonarea {
+      position: relative;
+      button {
+        width: 220px;
+        height: 56px;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.04em;
+        background-color: #5a98d0;
+        border-radius: 10px;
+        border: none;
+        color: inherit;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        right: 0px;
+      }
+    }
+  }
+  .hr {
+    opacity: 0.4;
+    border: 0.5px solid #ffffff;
+  }
+  .lowerfooter {
+    width: 100%;
+    max-width: 940px;
+    margin-left: 213px;
+    margin-right: 126px;
+
+    padding: 90px 0;
+    letter-spacing: 0.02em;
+
+    .afrianska {
+      width: 50%;
+      .logo {
+        padding-bottom: 32px;
+      }
+      h5 {
+        font-size: 28px;
+        padding-left: 35px;
+        align-self: center;
+      }
+      p {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: $fw-lighter;
+        padding-bottom: 16px;
+
+        span {
+          font-size: 16px;
+          line-height: 26px;
+          font-weight: $fw-bold;
+          letter-spacing: 0.05em;
+        }
+      }
+    }
+    .about,
+    .socialmedia {
+      width: 20%;
+      padding-left: 19%;
+    }
+
+    h6 {
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: $fw-bold;
+      padding-bottom: 32px;
+      margin-right: 0;
+    }
+    div {
+      ul {
+        li {
+          font-size: 16px;
+          line-height: 26px;
+          font-weight: $fw-lighter;
+          padding-bottom: 16px;
+        }
+      }
+    }
+  }
+  .copyright {
+    margin-left: 213px;
+    padding-bottom: 64px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    opacity: 0.4;
+  }
+}
