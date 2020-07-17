@@ -1,11 +1,11 @@
 html {
-  font-family: "Roboto";
-  max-width: 1366px;
-  width: 100%;
-  margin: 0 auto;
-  letter-spacing: 0.04em;
+font-family: "Roboto";
+// max-width: 1366px;
+// width: 100%;
+margin: 0 auto;
+letter-spacing: 0.04em;
 }
-.main {
+.container {
   width: 100%;
   max-width: 940px;
   margin: 0 auto 80px;
@@ -18,9 +18,9 @@ html {
   border-radius: 0px 200px 0px 0px;
   color: $color-tertiary;
 }
-// address {
-//   font-size: 14px;
-//   font-weight: bold;
-//   color: $color-primary
-//   letter-spacing:0.04em;
-// }
+// // address {
+// //   font-size: 14px;
+// //   font-weight: bold;
+// //   color: $color-primary
+// //   letter-spacing:0.04em;
+// // }

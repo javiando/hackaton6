@@ -1,0 +1,19 @@
+.searchbar {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 0 25px 0 25px;
+
+  input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 20px 20px;
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      color: $color-primary;
+      font-size: 16px;
+    }
+  }
+}
