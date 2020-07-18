@@ -1,169 +1,66 @@
 .main {
-  // .searchbar {
-  //   justify-content: center;
-  //   margin-bottom: 45px;
-  //   input {
-  //     width: 100%;
-  //     border-radius: 16px;
-  //     border: none;
-  //     background-color: #f4f4f4;
-  //     background-image: url("/images/icon-search.png");
-  //     background-position: 26px 18.778px;
-  //     background-repeat: no-repeat;
-  //     padding: 20px 70px;
-  //   }
-  // }
-  h2 {
-    margin: 35px;
-    margin-left: 0;
-    font-size: 20px;
-    font-weight: $fw-bold;
-    color: $color-secondary;
-  }
-  .uppermain {
-    .principal-uppermain {
-      article {
-        h3 {
-          color: $color-primary;
-          font-size: 36px;
-          font-weight: $fw-bold;
-        }
-        p {
-          padding: 20px;
-          padding-left: 0;
-          font-size: 16px;
-          line-height: 26px;
-        }
-        .footerarticle {
-          padding-right: 30px;
-          address {
-            color: $color-primary;
-            font-weight: $fw-bold;
-          }
-          .readingtime {
-            padding: 10px;
-            font-size: 14px;
-            padding-left: 0;
-            color: rgba(0, 0, 0, 0.4);
-          }
-          .icons {
-            img {
-              margin: 0 25px;
-            }
-          }
-        }
+  .principal-uppermain {
+    .article {
+      flex-direction: column;
+      padding-right: 10px;
+    }
+
+    .article-footer-icons {
+      img {
+        margin: 0 25px;
       }
     }
-    .others-uppermain {
-      width: 100%;
+  }
+  .others-uppermain {
+    width: 100%;
+    align-content: center;
+    margin-top: 40px;
+    article {
+      width: 32%;
 
-      align-content: center;
-      margin-top: 40px;
-      article {
-        width: 32%;
-        h4 {
-          font-size: 22px;
-          font-weight: $fw-bold;
-          line-height: 32px;
-          color: $color-primary;
-        }
-        p {
-          font-size: 16px;
-          line-height: 26px;
-          padding: 20px 0;
-        }
-        .footerarticle {
-          font-size: 14px;
+      h4 {
+        font-size: 2.2rem;
+        line-height: 3.2rem;
+      }
 
-          address {
-            color: $color-primary;
-            font-weight: $fw-bold;
-          }
-          .readingtime {
-            font-size: inherit;
-            padding: 10px;
-            padding-left: 0;
-            color: $color-readingtime;
-          }
-          .icons {
-            img {
-              margin-left: 25px;
-            }
-          }
-        }
+      .article-footer {
+        padding-top: 33px;
       }
     }
   }
   .seeall {
     color: $color-secondary;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: $fw-bold;
     line-height: 18px;
     margin-top: 40px;
     text-align: right;
   }
+
   hr {
     margin-top: 30px;
     margin-bottom: 30px;
     color: 1px solid rgba(0, 0, 0, 0.2);
   }
-  .allarticles {
-    color: $color-secondary;
-    font-size: 20px;
-    font-weight: $fw-bold;
-    line-height: 23px;
-    margin-top: 50px;
-    margin-bottom: 30px;
-  }
 
   .lowermain {
     flex-direction: column;
-    height: 100%;
-    article {
-      height: 210px;
+
+    .lowermain-article {
+      height: 200px;
       margin-bottom: 30px;
-      .rightside {
+      .lowermain-article-text {
         padding-left: 20px;
+        flex-direction: column;
         h4 {
-          color: $color-primary;
-          font-size: 18px;
-          font-weight: $fw-bold;
-          line-height: 28px;
-        }
-        p {
-          color: $color-quaternary;
-          font-size: 14px;
-          line-height: 24px;
-          letter-spacing: 0.04em;
-          text-align: justify;
-          margin-top: 5px;
-        }
-        .footerarticle {
-          padding: 45px 0 0;
-          font-size: 14px;
-          line-height: 24px;
-          address {
-            color: $color-primary;
-            font-weight: $fw-bold;
-          }
-          .readingtime {
-            color: $color-readingtime;
-            font-weight: $fw-normal;
-          }
-          .icons {
-            img {
-              margin-left: 25px;
-            }
-          }
+          font-size: 1.8rem;
+
+          line-height: 2.8rem;
         }
       }
     }
   }
   .oldnewpost {
-    justify-content: space-between;
-    font-size: 16px;
-    color: $color-secondary;
-    // line-height: 18px;
     .oldpost {
       :nth-child(2) {
         margin-left: 30px;

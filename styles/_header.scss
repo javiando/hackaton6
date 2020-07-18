@@ -6,10 +6,14 @@ nav {
   li {
     display: inline-block;
     margin-left: 50px;
+    font-size: 2rem;
+
     a {
       text-decoration: none;
       color: $color-primary;
       font-weight: $fw-bold;
+      font-size: inherit;
+      
       &:hover {
         text-decoration: underline;
       }

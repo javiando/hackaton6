@@ -4,11 +4,17 @@ $color-primary: #1f3f68;
 $color-secondary: #356ead;
 $color-tertiary: #fff;
 $color-quaternary: #000;
-$color-readingtime:  rgba(0, 0, 0, 0.4);
+$color-readingtime: rgba(0, 0, 0, 0.4);
 //font-weight
 $fw-bold: bold;
 $fw-normal: normal;
 $fw-lighter: lighter;
 //font-family
 $font-family: roboto;
-
+//breakpoints
+$breakpoints: (
+  lg: 1060px,
+  md: 820px,
+  sm: 620px,
+  xs: 420px,
+);

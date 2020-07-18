@@ -1,26 +1,120 @@
 html {
-font-family: "Roboto";
-// max-width: 1366px;
-// width: 100%;
-margin: 0 auto;
-letter-spacing: 0.04em;
+  font-family: "Roboto";
+
+  font-size: 62.5%;
+  margin: 0 auto;
+  letter-spacing: 0.04em;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .container {
   width: 100%;
   max-width: 940px;
   margin: 0 auto 80px;
   padding-top: 40px;
+  
 }
+
 .footer {
-  max-width: 1223.5px;
-  width: 100%;
   background-color: #316099;
-  border-radius: 0px 200px 0px 0px;
+  letter-spacing: 0.05em;
+
+  border-radius: 0 200px 0 0;
   color: $color-tertiary;
 }
-// // address {
-// //   font-size: 14px;
-// //   font-weight: bold;
-// //   color: $color-primary
-// //   letter-spacing:0.04em;
-// // }
+h1 {
+  font-size: 4.4rem;
+  margin-bottom: 2.4rem;
+
+}
+h2 {
+  margin: 35px;
+  margin-left: 0;
+  font-size: 2rem;
+  font-weight: $fw-bold;
+  color: $color-secondary;
+}
+h3 {
+  color: $color-primary;
+  font-size: 3.6rem;
+  font-weight: $fw-bold;
+}
+h4 {
+  color: $color-primary;
+  font-weight: $fw-bold;
+}
+h5 {
+  font-size: 2.8rem;
+  padding-left: 3.5rem;
+  align-self: center;
+}
+h6 {
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+  font-weight: $fw-normal;
+}
+address {
+  color: $color-primary;
+  font-weight: $fw-bold;
+  font-size: 1.4rem;
+}
+.article-footer-readingtime {
+  padding: 10px;
+  font-size: 1.4rem;
+  padding-left: 0;
+  color: rgba(0, 0, 0, 0.4);
+}
+.article-footer-icons {
+  img {
+    margin-left: 25px;
+  }
+}
+.uppermain-article-text-paragraph {
+  padding-top: 17px;
+  font-size: 1.5rem;
+  line-height: 26px;
+}
+
+.lowermain-article-text-paragraph {
+  color: $color-quaternary;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.04em;
+  text-align: justify;
+  margin-top: 5px;
+}
+.oldnewpost {
+  font-size: 1.6rem;
+  color: $color-secondary;
+}
+.upperfooter-paragraph {
+  margin-top: 32px;
+  font-size: 1.6rem;
+  line-height: 26px;
+  opacity: 0.6;
+  font-weight: $fw-lighter;
+}
+.buttonarea {
+  position: relative;
+  button {
+    width: 220px;
+    height: 56px;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    letter-spacing: 0.04em;
+    background-color: #5a98d0;
+    border-radius: 10px;
+    border: none;
+    color: inherit;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+  }
+}
